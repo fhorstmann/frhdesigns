@@ -1,0 +1,100 @@
+@media (min-width: 990px) {
+    .affix {
+        position: fixed;
+        top: 20px;
+        margin-top: 0px;
+    }
+}
+.affix-top {
+    position: static;
+}
+.affix-bottom {
+    position: relative;
+}
+.intro {
+    .sidebar {
+        span {
+            margin: 0;
+        }
+        
+      .back {
+        margin-right: 5px;
+        font-size: 18px;
+        top: 2px;
+      }
+      
+        .visit-site {
+            display: block;
+            margin-top: 10px;
+        }
+        a {
+            color: $drk;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1;
+            text-transform: uppercase;
+            @include ease();
+           &:hover {
+              text-decoration: none;
+             color: $blue;
+            }
+          svg.icon-big-arrow-right {
+                width: 20px;
+                position: relative;
+                top: -2px;
+                margin-left: 5px;
+                .st0 {
+                    fill:$drk;
+                }
+            }
+        }
+      a:hover svg.icon-big-arrow-right .st0  {
+        fill: $blue;
+      }
+      
+      .social-icons li a {
+        line-height: 35px;
+        color: $blue;
+         @include ease_out();
+        &:hover {
+              
+             color: #fff;
+            }
+      }
+      
+      
+    }
+}
+.sidebar {
+    max-width: 260px;
+    h1 {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 1;
+    }
+}
+.sidebar-info {
+    margin-top: 9px;
+    h3 {
+        margin: 0 0 10px;
+        padding-bottom: 10px;
+    }
+    span.tool-tip {
+        display: inline-block;
+        margin-left: 0px;
+        position: relative;
+        top: 1px;
+    }
+    .work-nav {
+          margin-top: 40px;
+        ul {
+            margin: 15px 0;
+            padding: 0;
+            li {
+                display: block;
+                list-style: none;
+                margin: 0 0 20px;
+            }
+        }
+    }
+}

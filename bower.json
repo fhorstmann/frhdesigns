@@ -1,0 +1,26 @@
+{
+  "name": "sage",
+  "homepage": "https://roots.io/sage/",
+  "authors": [
+    "Ben Word <ben@benword.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "git://github.com/twbs/bootstrap.git#v4.0.0-alpha.6",
+    "isotope": "^3.0.4",
+    "bLazy": "blazy#^1.8.2",
+    "imagesloaded": "^4.1.1",
+    "Ionicons": "ionicons#^2.0.1",
+    "Stickyfill": "^1.1.4",
+    "aos": "^2.1.1",
+    "lazy-line-painter": "^1.7.0",
+    "textillate": "^0.4.0"
+  },
+  "overrides": {
+    "isotope": {
+      "main": "./dist/isotope.pkgd.min.js",
+      "dependencies": null
+    }
+  }
+}

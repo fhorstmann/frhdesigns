@@ -1,0 +1,33 @@
+//footer
+
+.footer-info {
+  position: relative;
+  background: #fff;
+  padding: 80px 20px;
+  margin: 60px 0 0;
+  
+  .meta-info {
+    
+    color: #383838;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    text-transform: uppercase;
+  
+    
+  }
+  
+  h3 {
+    font-size: 32px;
+    line-height: 1;
+    margin: 0 0 15px;
+    
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    color:$drk; 
+  }
+}
